@@ -1,0 +1,10 @@
+<div class="row d-flex justify-content-center">
+  <div class="card col-md-4 col-lg-3 col-sm-6 m-lg-5 m-md-3 m-sm-1 shadow" style="width: 18rem;"
+    *ngFor="let item of wonders">
+    <img src="{{item.Preview}}" class="card-img-top" alt="img">
+    <div class="card-body">
+      <h5 class="card-title">{{item.Title}}</h5>
+      <p class="card-text">{{item.Description}}</p>
+    </div>
+  </div>
+</div>
